@@ -66,6 +66,6 @@ def get_correct_parentheses(balanced_parentheses_string):
         return balanced_parentheses_string
     else:
         return change_to_correct_parentheses(balanced_parentheses_string)
-
+    print('hihihi')
 
 print(get_correct_parentheses(balanced_parentheses_string))  # "()(())()"가 반환 되어야 합니다!
